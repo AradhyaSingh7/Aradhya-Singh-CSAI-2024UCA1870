@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library Management System</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      </head>
+      
+<body>
+  <header>
+    <img src="images/icon.jpg">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myBooks.html">MyBooks</a></li>
+      </ul>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="Search..." id="searchBar" onkeyup="searchBooks()">
+      <button type="submit">Go</button>
+    </div>
+  </header>
+
+  
+
+    <div class="intro" id="Homepage">
+      <div class = "introContent"> 
+        <h1>Welcome to Online Library</h1>
+      </div>
+
+      <div class = "mainContent">
+        <h2>Recommended Books</h2>
+        <img src="images/line.png">
+        <div class = "books">
+          <div class = "book">
+            <img src = "images/daVinci.jpg">
+            <h3>The Da Vinci Code</h3>
+            <p>Author: Dan Brown</p>
+            <img src="images/r1.png">
+            <button class="add-to-mybooks">Add to MyBooks</button>
+          </div>
+
+          <div class = "book">
+            <img src = "images/book2.jpg">
+            <h3>A Tale Of Two Cities</h3>
+            <p>Author: Charles Dickens</p>
+            <img src="images/r2.png">
+            <button class="add-to-mybooks">Add to MyBooks</button>
+          </div>
+
+          <div class = "book">
+            <img src = "images/book3.jpg">
+            <h3>To Kill A Mockingbird</h3>
+            <p>Author: Harper Lee</p>
+            <img src="images/r3.png">
+            <button class="add-to-mybooks">Add to MyBooks</button>
+          </div>
+
+        </div>
+      </div>
+      <a href="allBooks.html" class="view-all">View All Books</a>
+    </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
